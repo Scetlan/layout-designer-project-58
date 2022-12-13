@@ -5,3 +5,63 @@
 
   color: #fff;
 }
+
+:root {
+  --white: #fff;
+  --translucent_white: #d7ccc0;
+  --light: #f5f4f0;
+  --primary: #fe8a02;
+  --main_dark: #42413c;
+  --dark: #2a2626;
+  --translucent_dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Neucha";
+  src: url("../font/Neucha-Regular.ttf");
+}
+
+body {
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+  color: var(--dark);
+  font-family: "OpenSans", sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Neucha", sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  width: 1110px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  line-height: 1.6em;
+}
