@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +10,11 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container header__hat">
-            <h1 class="header__hat__title title">Когнитивные искажения</h1>
-            <h2 class="header__hat__title">в программировании</h2>
+    <header class="header flex">
+        <div class="header__container header__hat">
+            <h1 class="hat__content__title"><span class="title">Когнитивные<br>искажения</span><br>в программировании
+            </h1>
+            <img class="hat__img" src="./img/main 1.png" alt="Тодо что-то изучает">
             <div class="header__hat__info info">
                 <p class="info__text">Мы, разработчики, часто сталкиваемся с&nbsp;проблемами, которые идут вразрез
                     с&nbsp;нашей продуктивностью. Но&nbsp;мы&nbsp;часто игнорируем целостную картину. Некоторые
@@ -27,78 +27,75 @@
                     Вместе они формируют что-то вроде замкнутого цикла, и&nbsp;это может привести к&nbsp;длительной
                     потере
                     продуктивности, багам и&nbsp;бесконечному разочарованию.
+                    <br>
+                    <br>
                     Если мы&nbsp;сможем минимизировать воздействие одного или нескольких из&nbsp;этих факторов,
                     то&nbsp;сможем сломать и&nbsp;цикл, а&nbsp;остатки нейтрализовать.
                 </p>
-                <button class="info__btn btn">
-                    подробнее
-                </button>
+                <button class="info__btn" href="#">ПОДРОБНЕЕ</a>
+
             </div>
         </div>
     </header>
     <main class="main">
         <section class="main__definition">
-            <div class="container def">
-                <div class="def__content">
-                    <h2 class="def__content__title">Что же это такое, <span class="title">когнитивные искажения?</span>
-                    </h2>
-                    <p class="def__content_desc">Что такое когнитивные искажения. Petrovna Channel</p>
-                </div>
+            <div class="main__container def">
+                    <h2 class="def__title">Что же это такое,<br> <span class="title">когнитивные искажения?</span></h2>
+                    <p class="def__desc">Что такое когнитивные искажения. Petrovna Channel</p>
                 <div class="def__video">
-                    <!-- добавить видео -->
+                    <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
 
-        <section class="main__card ">
-            <div class="container card">
-                <ul class="card__content">
-                    <li class="card__content__link individ">
-                        <h2 class="individ__title title">5 когнитивных искажений</h2>
-                        <h2 class="individ__title">о&nbsp;существовании которых стоит помнить</h2>
-                    </li>
-                    <li class="card__content__link">
-                        <h2 class="card__content__link__number">1</h2>
-                        <h3 class="card__content__link__title">Эффект ИКЕА</h3>
-                        <p class="card__content__link__desc">
+        <section class="main__card">
+            <div class="main__container card">
+                <div class="card__content list flex">
+                    <nav class="list__link individ">
+                        <h3 class="individ__title"><span class="title">5 когнитивных искажений</span><br>о&nbsp;существовании которых стоит помнить</h2>
+                    </nav>
+                    <nav class="list__link">
+                        <h3 class="list__link__number">1</h2>
+                        <h3 class="list__link__title">Эффект ИКЕА</h3>
+                        <p class="list__link__desc">
                             Вы&nbsp;переоцениваете собственные решения, и, как следствие, недооцениваете решения других.
                         </p>
-                    </li>
-                    <li class="card__content__link">
-                        <h2 class="card__content__link__number">2</h2>
-                        <h3 class="card__content__link__title">Преждевременная оптимизация</h3>
-                        <p class="card__content__link__desc">
+                    </nav>
+                    <nav class="list__link">
+                        <h3 class="list__link__number">2</h2>
+                        <h3 class="list__link__title">Преждевременная оптимизация</h3>
+                        <p class="list__link__desc">
                             Вы&nbsp;оптимизируете что-то задолго до&nbsp;того, как в&nbsp;этом появляется необходимость.
                         </p>
-                    </li>
-                    <li class="card__content__link">
-                        <h2 class="card__content__link__number">3</h2>
-                        <h3 class="card__content__link__title">Искажение новизны</h3>
-                        <p class="card__content__link__desc">
+                    </nav>
+                    <nav class="list__link">
+                        <h3 class="list__link__number">3</h2>
+                        <h3 class="list__link__title">Искажение новизны</h3>
+                        <p class="list__link__desc">
                             Вы&nbsp;даёте более высокую оценку тем событиям, которые произошли недавно,
                             и&nbsp;недооцениваете более старые.
                         </p>
-                    </li>
-                    <li class="card__content__link">
-                        <h2 class="card__content__link__number">4</h2>
-                        <h3 class="card__content__link__title">Гиперболическое обесценивание</h3>
-                        <p class="card__content__link__desc">
+                    </nav>
+                    <nav class="list__link">
+                        <h3 class="list__link__number">4</h2>
+                        <h3 class="list__link__title">Гиперболическое обесценивание</h3>
+                        <p class="list__link__desc">
                             Вы&nbsp;гонитесь за&nbsp;немедленной маленькой выгодой и&nbsp;игнорируете более крупную,
                             недоступную сейчас, но&nbsp;доступную в&nbsp;будущем.
                         </p>
-                    </li>
-                    <li class="card__content__link">
-                        <h2 class="card__content__link__number">5</h2>
-                        <h3 class="card__content__link__title">Ошибка планирования</h3>
-                        <p class="card__content__link__desc">
+                    </nav>
+                    <nav class="list__link">
+                        <h3 class="list__link__number">5</h2>
+                        <h3 class="list__link__title">Ошибка планирования</h3>
+                        <p class="list__link__desc">
                             Неправильно рассчитывать время необходимое для завершения задачи.
                         </p>
-                    </li>
-                </ul>
+                    </nav>
+                </div>
             </div>
         </section>
         <section class="main__blog__one">
-            <div class="container blog__one">
+            <div class="main__container blog__one">
                 <div class="blog__one">
                     <div class="blog__one__img"></div>
                     <div class="blog__one__desc desc">
@@ -125,7 +122,7 @@
             </div>
         </section>
         <section class="main__blog__two">
-            <div class="container blog__two">
+            <div class="main__container blog__two">
                 <div class="blog__two__h">
                     <div class="blog__two__img"></div>
                     <div class="blog__two__desc content__desc">
