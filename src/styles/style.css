@@ -91,6 +91,23 @@ p {
   list-style: none;
 }
 
+.column {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.font-neucha {
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.font-open-sans {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 400;
+}
+
 /*header*/
 
 .header {
@@ -134,14 +151,11 @@ p {
 }
 
 .header__hat__info {
-  column-count: 2;
-  column-gap: 30px;
-  font-family: "OpenSans";
   font-size: 16px;
   line-height: 26px;
 }
 
-.info {}
+/* .info {} */
 
 .info__text {
   margin-top: 0;
@@ -149,7 +163,6 @@ p {
 }
 
 .info__btn {
-  font-family: "OpenSans";
   font-size: 16px;
   line-height: 160%;
   padding: 12px 24px;
@@ -200,7 +213,6 @@ p {
 }
 
 .individ__title {
-  font-family: "Neucha";
   font-size: 52px;
   line-height: 120%;
   color: var(--white);
@@ -229,7 +241,6 @@ p {
 
 .list__link__number {
   margin-bottom: 40px;
-  font-family: "Neucha";
   font-size: 64px;
   line-height: 1;
   color: var(--main_dark);
@@ -237,4 +248,69 @@ p {
 
 .list__link__title {
   color: var(--primary);
+}
+
+
+
+/*секция 1*/
+
+.main__section__one {
+  padding: 100px 0 100px;
+}
+
+.main__section__one::before {
+  position: absolute;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.1;
+}
+
+/*глабальные классы*/
+
+/* .column__desc {} */
+
+.column__img {
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.column__desc-short {
+  font-size: 34px;
+  line-height: 41px;
+  color: var(--dark);
+}
+
+.column__sign {
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--translucent_dark);
+}
+
+.column__title {
+  font-size: 60px;
+  line-height: 72px;
+  color: var(--dark);
+}
+
+.info {
+  margin-top: var(--margin_botton_top);
+}
+
+.info__title {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  padding-left: 10px;
+  color: var(--white);
+  background-color: var(--brown);
+}
+
+.column__text {
+  margin-top: 0;
 }
