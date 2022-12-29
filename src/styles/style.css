@@ -41,7 +41,7 @@
 body {
   display: block;
   margin: 0 auto;
-  width: 1440px;
+  height: 100%;
   color: var(--dark);
   font-family: "OpenSans", sans-serif;
 
@@ -80,9 +80,15 @@ p {
 }
 
 .main__container,
-.header__container {
+.header__container,
+.footer__container {
   width: 1110px;
   margin: auto;
+}
+
+.m__p100px {
+  padding-top: var(--margin_botton_top);
+  padding-bottom: var(--margin_botton_top);
 }
 
 .card__content {
@@ -115,8 +121,7 @@ p {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: var(--margin_botton_top);
-  margin-bottom: var(--margin_botton_top);
+  background-color: var(--light);
 }
 
 .header::before {
@@ -172,6 +177,10 @@ p {
 }
 
 /* main*/
+
+.main__definition {
+  margin-bottom: -100px;
+}
 
 .def {
   text-align: center;
@@ -255,7 +264,11 @@ p {
 /*секция 1*/
 
 .main__section__one {
-  padding: 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .main__section__one::before {
@@ -269,12 +282,21 @@ p {
   opacity: 0.1;
 }
 
+.ikea__blog {
+  position: relative;
+}
+
 /*глабальные классы*/
 
 /* .column__desc {} */
 
 .column__img {
+  vertical-align: middle;
   filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.column__desc {
+  margin-left: 30px;
 }
 
 .column__desc-short {
@@ -314,3 +336,103 @@ p {
 .column__text {
   margin-top: 0;
 }
+
+
+
+
+
+
+
+
+/* SECTION-FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__input {
+  background-color: var(--main_dark);
+  column-count: 2;
+  padding: 55px 55px 55px 55px;
+}
+
+.column__left {
+  font-family: "Neucha";
+  color: var(--white);
+}
+
+.column__title-input {
+  margin: 0px;
+}
+
+.column__right {
+
+}
+
+.column__right-email {
+  font-family: "Open Sans";
+  color: var(--white);
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.link {
+  font-family: "Open Sans";
+  color: var(--white);
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.column__right-button {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.email {
+  border: none;
+  width: 425px;
+  height: 48px;
+  padding-left: 15px;
+
+}
+
+.email::-webkit-input-placeholder {
+  font-family: "Open Sans";
+  opacity: 0.2;
+}
+
+.footer-button {
+  border: none;
+  width: 70px;
+  height: 50px;
+  background-color: var(--primary);
+  border: none;
+  background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/78cf2c1aa4757071fdaa945bbd6b72adb59fc38b/images/send.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.link__article {
+  color: var(--blue);
+}
+
+.column__more {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.column-footer-3 {
+  color: var(--blue);
+}
+
+.link-text {
+  color: var(--blue);
+}
+
