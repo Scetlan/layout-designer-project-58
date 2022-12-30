@@ -39,6 +39,7 @@
 }
 
 body {
+  width: 1440px;
   display: block;
   margin: 0 auto;
   height: 100%;
@@ -65,9 +66,12 @@ h3 {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   margin: 0;
   font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
 }
 
 .title {
