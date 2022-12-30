@@ -178,10 +178,14 @@ p {
   font-size: 16px;
   line-height: 160%;
   padding: 12px 24px;
-  color: var(--white);
   background-color: var(--primary);
   border: none;
   margin-top: 30px;
+}
+
+.btn-link {
+  color: var(--white);
+  text-decoration: none;
 }
 
 /* main*/
@@ -371,6 +375,16 @@ p {
   color: var(--white);
   background-color: var(--brown);
 }
+
+.info__content,
+.optim__blog,
+.novelty__blog,
+.deprec__blog,
+.planning__blog {
+  margin-bottom: 100px;
+}
+
+
 
 .column__text {
   margin-top: 0;
