@@ -144,7 +144,7 @@ p {
   position: relative;
   width: 100%;
   z-index: 3;
-  height: 525px;
+  margin-bottom: 200px;
 }
 
 .hat__img {
@@ -164,6 +164,7 @@ p {
 
 .info__text {
   margin-top: 0;
+  margin-bottom: 0;
   break-inside: avoid;
 }
 
@@ -174,12 +175,13 @@ p {
   color: var(--white);
   background-color: var(--primary);
   border: none;
+  margin-top: 30px;
 }
 
 /* main*/
 
 .main__definition {
-  margin-bottom: -100px;
+  margin-bottom: -92px;
 }
 
 .def {
@@ -235,12 +237,20 @@ p {
   max-width: 350px;
   padding: 24px;
   margin-right: 30px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   background-color: var(--white);
 }
 
 .list__link:nth-child(3n) {
   margin-right: 0;
+}
+
+.list__link:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.list__link__desc {
+  margin-bottom: 0;
 }
 
 .individ {
@@ -259,7 +269,9 @@ p {
   color: var(--primary);
 }
 
-
+.link__title {
+  margin-bottom: 12px;
+}
 /*секция 1*/
 
 
@@ -330,10 +342,6 @@ p {
   font-size: 60px;
   line-height: 72px;
   color: var(--dark);
-}
-
-.info {
-  margin-top: var(--margin_botton_top);
 }
 
 .info__title {
