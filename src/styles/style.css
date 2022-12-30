@@ -260,8 +260,8 @@ p {
 }
 
 
-
 /*секция 1*/
+
 
 .main__section__one {
   display: flex;
@@ -295,12 +295,6 @@ p {
 
 
 
-background-color: var(--brown);
-
-
-
-background-color: var(--light);
-
 .ikea__blog {
   position: relative;
 }
@@ -323,6 +317,7 @@ background-color: var(--light);
   line-height: 41px;
   color: var(--dark);
 }
+
 
 .column__sign {
   margin-bottom: 0;
@@ -373,7 +368,22 @@ background-color: var(--light);
 
 
 
+.column__width {
+  color: var(--white);
+}
 
+.column__color {
+  color: var(--translucent_white);
+}
+
+.column__background {
+  background-color: var(--white);
+  color: var(--brown);
+}
+
+.column__marggin {
+  margin-left: 0;
+}
 
 
 /* SECTION-FOOTER */
