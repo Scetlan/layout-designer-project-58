@@ -302,15 +302,17 @@ p {
 .main__section__one {
   display: flex;
   flex-direction: column;
+  position: relative;
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding-top: 93px;
   background-color: var(--light);
 }
 
 .main__section__two {
   background-color: var(--brown);
-
+  position: relative;
 }
 
 .color {
@@ -319,14 +321,17 @@ p {
 
 .main__section__three {
   background-color: var(--light);
+  position: relative;
 }
 
 .main__section__four {
   background-color: var(--brown);
+  position: relative;
 }
 
 .main__section__five {
   background-color: var(--light);
+  position: relative;
 }
 
 
@@ -345,7 +350,7 @@ p {
 }
 
 .column__desc {
-  margin-left: 30px;
+  margin-left: 38px;
 }
 
 .column__desc-short {
@@ -356,7 +361,7 @@ p {
 
 
 .column__sign {
-  margin-bottom: 0;
+  margin: 0;
   font-size: 24px;
   line-height: 29px;
   color: var(--translucent_dark);
@@ -379,7 +384,7 @@ p {
   background-color: var(--brown);
 }
 
-.info__content,
+.ikea__blog,
 .optim__blog,
 .novelty__blog,
 .deprec__blog,
@@ -403,6 +408,8 @@ p {
   background-size: cover;
   width: 100%;
   height: 100%;
+  top: 0;
+  right: 0;
   content: "";
   opacity: 0.1;
 }
