@@ -191,7 +191,7 @@ p {
 /* main*/
 
 .main__definition {
-  margin-bottom: -92px;
+  margin-bottom: -100px;
 }
 
 .def {
@@ -203,7 +203,7 @@ p {
 }
 
 .def__desc {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .def__video {
@@ -248,7 +248,7 @@ p {
   max-width: 350px;
   padding: 24px;
   margin-right: 30px;
-  margin-top: 16px;
+  margin-top: 20px;
   background-color: var(--white);
 }
 
