@@ -438,6 +438,9 @@ p {
 /* SECTION-FOOTER */
 
 .footer {
+  position: relative;
+  max-width: 1110px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -446,7 +449,7 @@ p {
 .footer__input {
   background-color: var(--main_dark);
   column-count: 2;
-  padding: 55px 55px 55px 55px;
+  padding: 38px 55px 40px 55px;
 }
 
 .column__left {
@@ -461,14 +464,14 @@ p {
 .column__right {}
 
 .column__right-email {
-  font-family: "Open Sans";
+  font-family: "OpenSans";
   color: var(--white);
   font-size: 18px;
-  margin-bottom: 0px;
+  margin-bottom: 9px;
 }
 
 .link {
-  font-family: "Open Sans";
+  font-family: "OpenSans";
   color: var(--white);
   font-size: 12px;
   margin-top: 0px;
@@ -482,23 +485,23 @@ p {
 
 .email {
   border: none;
-  width: 425px;
-  height: 48px;
-  padding-left: 15px;
+  width: 423px;
+  height: 50px;
+  padding: 15px;
 
 }
 
 .email::-webkit-input-placeholder {
-  font-family: "Open Sans";
+  font-family: "OpenSans";
   opacity: 0.2;
 }
 
 .footer-button {
-  border: none;
   width: 70px;
   height: 50px;
   background-color: var(--primary);
   border: none;
+  padding: 0;
   background-image: url(https://raw.githubusercontent.com/hexlet-components/projects-css-l1-cognitive-biases/78cf2c1aa4757071fdaa945bbd6b72adb59fc38b/images/send.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -511,13 +514,20 @@ p {
 }
 
 .column__more {
-  margin-top: 60px;
+  margin-top: 76px;
   text-align: center;
   font-size: 14px;
 }
 
+.column-footer-1,
+.column-footer-2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
 
 .column-footer-3 {
+  margin: 0;
   color: var(--blue);
 }
 
