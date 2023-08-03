@@ -115,10 +115,7 @@ p {
 
 .background-basic::before {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
   z-index: -1;
 
   width: 100%;
@@ -200,7 +197,7 @@ p {
 
   margin-bottom: -200px;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgb(0, 0, 0, 15%));
 }
 
 .cognitive-biases {
@@ -487,10 +484,8 @@ footer {
 
 .btn-submit-footer::before {
   position: absolute;
-  top: 13px;
-  right: 0;
-  bottom: 0;
-  left: 18px;
+
+  inset: 13px 0 0 18px;
 
   background-image: url("../images/send.svg");
   background-repeat: no-repeat;
