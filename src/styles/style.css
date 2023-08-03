@@ -4,7 +4,7 @@
 
 @font-face {
   font-weight: 400;
-  font-family: "Neucha";
+  font-family: 'Neucha';
   src: url("../asserts/fonts/Neucha-Regular.ttf");
 }
 
@@ -22,16 +22,16 @@
 
 :root {
   --white: #fff;
-  --translucentWhite: #d7ccc0;
+  --translucent-white: #d7ccc0;
   --light: #f5f4f0;
   --basic: #fe8a02;
-  --darkOrange: #ea7600;
-  --basicDark: #42413c;
+  --dark-orange: #ea7600;
+  --basic-dark: #42413c;
   --dark: #2a2626;
-  --translucentDark: #908d8b;
+  --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --ligthGrey: #757575;
+  --ligth-grey: #757575;
 }
 
 body {
@@ -60,7 +60,7 @@ h3 {
 
   color: var(--basic);
   font-weight: 400;
-  font-family: "Neucha", cursive;
+  font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
 
@@ -99,7 +99,7 @@ p {
 }
 
 .btn:hover {
-  background: var(--darkOrange);
+  background: var(--dark-orange);
 }
 
 .header {
@@ -206,7 +206,7 @@ p {
 .cognitive-biases {
   padding-top: 150px;
 
-  background-color: var(--basicDark);
+  background-color: var(--basic-dark);
 }
 
 .cognitive-biases-list {
@@ -237,7 +237,7 @@ p {
 .cognitive-biases-item-description {
   padding: 0;
 
-  background-color: var(--basicDark);
+  background-color: var(--basic-dark);
 }
 
 .cognitive-biases-list-description {
@@ -248,9 +248,9 @@ p {
 .cognitive-biases-item-count {
   margin-bottom: 40px;
 
-  color: var(--basicDark);
+  color: var(--basic-dark);
   font-size: 64px;
-  font-family: "Neucha", cursive;
+  font-family: 'Neucha', cursive;
   line-height: 1;
 }
 
@@ -315,11 +315,11 @@ p {
 .card-pre-title {
   font-weight: 500;
   font-size: 24px;
-  font-family: "Neucha", cursive;
+  font-family: 'Neucha', cursive;
 }
 
 .ikea-effect-pre-title {
-  color: var(--translucentDark);
+  color: var(--translucent-dark);
 }
 
 .card-title {
@@ -331,7 +331,7 @@ p {
 .card-title-description {
   font-weight: 400;
   font-size: 34px;
-  font-family: "Neucha", cursive;
+  font-family: 'Neucha', cursive;
   line-height: 41px;
 }
 
@@ -378,7 +378,7 @@ p {
 }
 
 .premature-optimization-pre-title {
-  color: var(--translucentWhite);
+  color: var(--translucent-white);
 }
 
 .card-description-right-premature-optimization {
@@ -419,7 +419,7 @@ footer {
   height: 190px;
   margin-bottom: 60px;
 
-  background-color: var(--basicDark);
+  background-color: var(--basic-dark);
 }
 
 .form-description {
@@ -433,7 +433,7 @@ footer {
 
   font-weight: 400;
   font-size: 34px;
-  font-family: "Neucha", cursive;
+  font-family: 'Neucha', cursive;
   line-height: 40px;
 }
 
@@ -464,7 +464,7 @@ footer {
 }
 
 .footer-input-email::placeholder {
-  color: var(--ligthGrey);
+  color: var(--ligth-grey);
   font-weight: 40;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
@@ -482,7 +482,7 @@ footer {
 }
 
 .btn-submit-footer:hover {
-  background: var(--darkOrange);
+  background: var(--dark-orange);
 }
 
 .btn-submit-footer::before {
