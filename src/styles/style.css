@@ -4,7 +4,7 @@
 
 @font-face {
   font-weight: 400;
-  font-family: 'Neucha';
+  font-family: Neucha;
   src: url("../asserts/fonts/Neucha-Regular.ttf");
 }
 
@@ -60,7 +60,7 @@ h3 {
 
   color: var(--basic);
   font-weight: 400;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
@@ -250,7 +250,7 @@ p {
 
   color: var(--basic-dark);
   font-size: 64px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 1;
 }
 
@@ -315,7 +315,7 @@ p {
 .card-pre-title {
   font-weight: 500;
   font-size: 24px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
 }
 
 .ikea-effect-pre-title {
@@ -331,7 +331,7 @@ p {
 .card-title-description {
   font-weight: 400;
   font-size: 34px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 41px;
 }
 
@@ -433,7 +433,7 @@ footer {
 
   font-weight: 400;
   font-size: 34px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 40px;
 }
 
